@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525323BD1F81DE71006B49CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525323BC1F81DE71006B49CA /* AppDelegate.swift */; };
+		525323BF1F81DE71006B49CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525323BE1F81DE71006B49CA /* ViewController.swift */; };
+		525323C21F81DE73006B49CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525323C01F81DE73006B49CA /* Main.storyboard */; };
+		525323C41F81DE74006B49CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525323C31F81DE74006B49CA /* Assets.xcassets */; };
+		525323C71F81DE74006B49CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525323C51F81DE74006B49CA /* LaunchScreen.storyboard */; };
+		525323D21F81DE76006B49CA /* CIS240_Lab_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525323D11F81DE76006B49CA /* CIS240_Lab_2Tests.swift */; };
+		525323DD1F81DE77006B49CA /* CIS240_Lab_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525323DC1F81DE77006B49CA /* CIS240_Lab_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525323CE1F81DE76006B49CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525323B11F81DE6D006B49CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525323B81F81DE70006B49CA;
+			remoteInfo = "CIS240 Lab 2";
+		};
+		525323D91F81DE76006B49CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525323B11F81DE6D006B49CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525323B81F81DE70006B49CA;
+			remoteInfo = "CIS240 Lab 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525323B91F81DE71006B49CA /* CIS240 Lab 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIS240 Lab 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525323BC1F81DE71006B49CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525323BE1F81DE71006B49CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525323C11F81DE73006B49CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525323C31F81DE74006B49CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525323C61F81DE74006B49CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525323C81F81DE74006B49CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525323CD1F81DE76006B49CA /* CIS240 Lab 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CIS240 Lab 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525323D11F81DE76006B49CA /* CIS240_Lab_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS240_Lab_2Tests.swift; sourceTree = "<group>"; };
+		525323D31F81DE76006B49CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525323D81F81DE76006B49CA /* CIS240 Lab 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CIS240 Lab 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525323DC1F81DE77006B49CA /* CIS240_Lab_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIS240_Lab_2UITests.swift; sourceTree = "<group>"; };
+		525323DE1F81DE77006B49CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525323B61F81DE70006B49CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323CA1F81DE76006B49CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323D51F81DE76006B49CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525323B01F81DE6C006B49CA = {
+			isa = PBXGroup;
+			children = (
+				525323BB1F81DE71006B49CA /* CIS240 Lab 2 */,
+				525323D01F81DE76006B49CA /* CIS240 Lab 2Tests */,
+				525323DB1F81DE76006B49CA /* CIS240 Lab 2UITests */,
+				525323BA1F81DE71006B49CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525323BA1F81DE71006B49CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525323B91F81DE71006B49CA /* CIS240 Lab 2.app */,
+				525323CD1F81DE76006B49CA /* CIS240 Lab 2Tests.xctest */,
+				525323D81F81DE76006B49CA /* CIS240 Lab 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525323BB1F81DE71006B49CA /* CIS240 Lab 2 */ = {
+			isa = PBXGroup;
+			children = (
+				525323BC1F81DE71006B49CA /* AppDelegate.swift */,
+				525323BE1F81DE71006B49CA /* ViewController.swift */,
+				525323C01F81DE73006B49CA /* Main.storyboard */,
+				525323C31F81DE74006B49CA /* Assets.xcassets */,
+				525323C51F81DE74006B49CA /* LaunchScreen.storyboard */,
+				525323C81F81DE74006B49CA /* Info.plist */,
+			);
+			path = "CIS240 Lab 2";
+			sourceTree = "<group>";
+		};
+		525323D01F81DE76006B49CA /* CIS240 Lab 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				525323D11F81DE76006B49CA /* CIS240_Lab_2Tests.swift */,
+				525323D31F81DE76006B49CA /* Info.plist */,
+			);
+			path = "CIS240 Lab 2Tests";
+			sourceTree = "<group>";
+		};
+		525323DB1F81DE76006B49CA /* CIS240 Lab 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				525323DC1F81DE77006B49CA /* CIS240_Lab_2UITests.swift */,
+				525323DE1F81DE77006B49CA /* Info.plist */,
+			);
+			path = "CIS240 Lab 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525323B81F81DE70006B49CA /* CIS240 Lab 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525323E11F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2" */;
+			buildPhases = (
+				525323B51F81DE70006B49CA /* Sources */,
+				525323B61F81DE70006B49CA /* Frameworks */,
+				525323B71F81DE70006B49CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIS240 Lab 2";
+			productName = "CIS240 Lab 2";
+			productReference = 525323B91F81DE71006B49CA /* CIS240 Lab 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525323CC1F81DE76006B49CA /* CIS240 Lab 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525323E41F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2Tests" */;
+			buildPhases = (
+				525323C91F81DE76006B49CA /* Sources */,
+				525323CA1F81DE76006B49CA /* Frameworks */,
+				525323CB1F81DE76006B49CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525323CF1F81DE76006B49CA /* PBXTargetDependency */,
+			);
+			name = "CIS240 Lab 2Tests";
+			productName = "CIS240 Lab 2Tests";
+			productReference = 525323CD1F81DE76006B49CA /* CIS240 Lab 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525323D71F81DE76006B49CA /* CIS240 Lab 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525323E71F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2UITests" */;
+			buildPhases = (
+				525323D41F81DE76006B49CA /* Sources */,
+				525323D51F81DE76006B49CA /* Frameworks */,
+				525323D61F81DE76006B49CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525323DA1F81DE76006B49CA /* PBXTargetDependency */,
+			);
+			name = "CIS240 Lab 2UITests";
+			productName = "CIS240 Lab 2UITests";
+			productReference = 525323D81F81DE76006B49CA /* CIS240 Lab 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525323B11F81DE6D006B49CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brandon Trastoy";
+				TargetAttributes = {
+					525323B81F81DE70006B49CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					525323CC1F81DE76006B49CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525323B81F81DE70006B49CA;
+					};
+					525323D71F81DE76006B49CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525323B81F81DE70006B49CA;
+					};
+				};
+			};
+			buildConfigurationList = 525323B41F81DE6E006B49CA /* Build configuration list for PBXProject "CIS240 Lab 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525323B01F81DE6C006B49CA;
+			productRefGroup = 525323BA1F81DE71006B49CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525323B81F81DE70006B49CA /* CIS240 Lab 2 */,
+				525323CC1F81DE76006B49CA /* CIS240 Lab 2Tests */,
+				525323D71F81DE76006B49CA /* CIS240 Lab 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525323B71F81DE70006B49CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525323C71F81DE74006B49CA /* LaunchScreen.storyboard in Resources */,
+				525323C41F81DE74006B49CA /* Assets.xcassets in Resources */,
+				525323C21F81DE73006B49CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323CB1F81DE76006B49CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323D61F81DE76006B49CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525323B51F81DE70006B49CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525323BF1F81DE71006B49CA /* ViewController.swift in Sources */,
+				525323BD1F81DE71006B49CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323C91F81DE76006B49CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525323D21F81DE76006B49CA /* CIS240_Lab_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525323D41F81DE76006B49CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525323DD1F81DE77006B49CA /* CIS240_Lab_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525323CF1F81DE76006B49CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525323B81F81DE70006B49CA /* CIS240 Lab 2 */;
+			targetProxy = 525323CE1F81DE76006B49CA /* PBXContainerItemProxy */;
+		};
+		525323DA1F81DE76006B49CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525323B81F81DE70006B49CA /* CIS240 Lab 2 */;
+			targetProxy = 525323D91F81DE76006B49CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525323C01F81DE73006B49CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525323C11F81DE73006B49CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525323C51F81DE74006B49CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525323C61F81DE74006B49CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525323DF1F81DE77006B49CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525323E01F81DE77006B49CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525323E21F81DE77006B49CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIS240 Lab 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		525323E31F81DE77006B49CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CIS240 Lab 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		525323E51F81DE77006B49CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CIS240 Lab 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIS240 Lab 2.app/CIS240 Lab 2";
+			};
+			name = Debug;
+		};
+		525323E61F81DE77006B49CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CIS240 Lab 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIS240 Lab 2.app/CIS240 Lab 2";
+			};
+			name = Release;
+		};
+		525323E81F81DE77006B49CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CIS240 Lab 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CIS240 Lab 2";
+			};
+			name = Debug;
+		};
+		525323E91F81DE77006B49CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "CIS240 Lab 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "B.CIS240-Lab-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CIS240 Lab 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525323B41F81DE6E006B49CA /* Build configuration list for PBXProject "CIS240 Lab 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525323DF1F81DE77006B49CA /* Debug */,
+				525323E01F81DE77006B49CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525323E11F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525323E21F81DE77006B49CA /* Debug */,
+				525323E31F81DE77006B49CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525323E41F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525323E51F81DE77006B49CA /* Debug */,
+				525323E61F81DE77006B49CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525323E71F81DE77006B49CA /* Build configuration list for PBXNativeTarget "CIS240 Lab 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525323E81F81DE77006B49CA /* Debug */,
+				525323E91F81DE77006B49CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525323B11F81DE6D006B49CA /* Project object */;
+}
