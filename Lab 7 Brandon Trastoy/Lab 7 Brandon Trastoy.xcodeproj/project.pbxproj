@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5282FD9E1FE450DC009B183F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282FD9D1FE450DC009B183F /* SecondViewController.swift */; };
+		5282FDA01FE45ABD009B183F /* tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282FD9F1FE45ABD009B183F /* tuple.swift */; };
+		5287B8FE1FDB3AB500A4F06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B8FD1FDB3AB500A4F06B /* AppDelegate.swift */; };
+		5287B9001FDB3AB500A4F06B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B8FF1FDB3AB500A4F06B /* ViewController.swift */; };
+		5287B9031FDB3AB500A4F06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287B9011FDB3AB500A4F06B /* Main.storyboard */; };
+		5287B9051FDB3AB500A4F06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5287B9041FDB3AB500A4F06B /* Assets.xcassets */; };
+		5287B9081FDB3AB500A4F06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5287B9061FDB3AB500A4F06B /* LaunchScreen.storyboard */; };
+		5287B9131FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B9121FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyTests.swift */; };
+		5287B91E1FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B91D1FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5287B90F1FDB3AB600A4F06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5287B8F21FDB3AB500A4F06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5287B8F91FDB3AB500A4F06B;
+			remoteInfo = "Lab 7 Brandon Trastoy";
+		};
+		5287B91A1FDB3AB600A4F06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5287B8F21FDB3AB500A4F06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5287B8F91FDB3AB500A4F06B;
+			remoteInfo = "Lab 7 Brandon Trastoy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5282FD9D1FE450DC009B183F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		5282FD9F1FE45ABD009B183F /* tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuple.swift; sourceTree = "<group>"; };
+		5287B8FA1FDB3AB500A4F06B /* Lab 7 Brandon Trastoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab 7 Brandon Trastoy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287B8FD1FDB3AB500A4F06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5287B8FF1FDB3AB500A4F06B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5287B9021FDB3AB500A4F06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5287B9041FDB3AB500A4F06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5287B9071FDB3AB500A4F06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5287B9091FDB3AB500A4F06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5287B90E1FDB3AB600A4F06B /* Lab 7 Brandon TrastoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 7 Brandon TrastoyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287B9121FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_7_Brandon_TrastoyTests.swift; sourceTree = "<group>"; };
+		5287B9141FDB3AB600A4F06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5287B9191FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 7 Brandon TrastoyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5287B91D1FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_7_Brandon_TrastoyUITests.swift; sourceTree = "<group>"; };
+		5287B91F1FDB3AB600A4F06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5287B8F71FDB3AB500A4F06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B90B1FDB3AB500A4F06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B9161FDB3AB600A4F06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5287B8F11FDB3AB500A4F06B = {
+			isa = PBXGroup;
+			children = (
+				5287B8FC1FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */,
+				5287B9111FDB3AB600A4F06B /* Lab 7 Brandon TrastoyTests */,
+				5287B91C1FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests */,
+				5287B8FB1FDB3AB500A4F06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5287B8FB1FDB3AB500A4F06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5287B8FA1FDB3AB500A4F06B /* Lab 7 Brandon Trastoy.app */,
+				5287B90E1FDB3AB600A4F06B /* Lab 7 Brandon TrastoyTests.xctest */,
+				5287B9191FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5287B8FC1FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */ = {
+			isa = PBXGroup;
+			children = (
+				5287B8FD1FDB3AB500A4F06B /* AppDelegate.swift */,
+				5287B8FF1FDB3AB500A4F06B /* ViewController.swift */,
+				5282FD9D1FE450DC009B183F /* SecondViewController.swift */,
+				5282FD9F1FE45ABD009B183F /* tuple.swift */,
+				5287B9011FDB3AB500A4F06B /* Main.storyboard */,
+				5287B9041FDB3AB500A4F06B /* Assets.xcassets */,
+				5287B9061FDB3AB500A4F06B /* LaunchScreen.storyboard */,
+				5287B9091FDB3AB500A4F06B /* Info.plist */,
+			);
+			path = "Lab 7 Brandon Trastoy";
+			sourceTree = "<group>";
+		};
+		5287B9111FDB3AB600A4F06B /* Lab 7 Brandon TrastoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5287B9121FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyTests.swift */,
+				5287B9141FDB3AB600A4F06B /* Info.plist */,
+			);
+			path = "Lab 7 Brandon TrastoyTests";
+			sourceTree = "<group>";
+		};
+		5287B91C1FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5287B91D1FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyUITests.swift */,
+				5287B91F1FDB3AB600A4F06B /* Info.plist */,
+			);
+			path = "Lab 7 Brandon TrastoyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5287B8F91FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5287B9221FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon Trastoy" */;
+			buildPhases = (
+				5287B8F61FDB3AB500A4F06B /* Sources */,
+				5287B8F71FDB3AB500A4F06B /* Frameworks */,
+				5287B8F81FDB3AB500A4F06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab 7 Brandon Trastoy";
+			productName = "Lab 7 Brandon Trastoy";
+			productReference = 5287B8FA1FDB3AB500A4F06B /* Lab 7 Brandon Trastoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5287B90D1FDB3AB500A4F06B /* Lab 7 Brandon TrastoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5287B9251FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon TrastoyTests" */;
+			buildPhases = (
+				5287B90A1FDB3AB500A4F06B /* Sources */,
+				5287B90B1FDB3AB500A4F06B /* Frameworks */,
+				5287B90C1FDB3AB500A4F06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5287B9101FDB3AB600A4F06B /* PBXTargetDependency */,
+			);
+			name = "Lab 7 Brandon TrastoyTests";
+			productName = "Lab 7 Brandon TrastoyTests";
+			productReference = 5287B90E1FDB3AB600A4F06B /* Lab 7 Brandon TrastoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5287B9181FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5287B9281FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon TrastoyUITests" */;
+			buildPhases = (
+				5287B9151FDB3AB600A4F06B /* Sources */,
+				5287B9161FDB3AB600A4F06B /* Frameworks */,
+				5287B9171FDB3AB600A4F06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5287B91B1FDB3AB600A4F06B /* PBXTargetDependency */,
+			);
+			name = "Lab 7 Brandon TrastoyUITests";
+			productName = "Lab 7 Brandon TrastoyUITests";
+			productReference = 5287B9191FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5287B8F21FDB3AB500A4F06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Brandon Trastoy";
+				TargetAttributes = {
+					5287B8F91FDB3AB500A4F06B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5287B90D1FDB3AB500A4F06B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5287B8F91FDB3AB500A4F06B;
+					};
+					5287B9181FDB3AB600A4F06B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5287B8F91FDB3AB500A4F06B;
+					};
+				};
+			};
+			buildConfigurationList = 5287B8F51FDB3AB500A4F06B /* Build configuration list for PBXProject "Lab 7 Brandon Trastoy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5287B8F11FDB3AB500A4F06B;
+			productRefGroup = 5287B8FB1FDB3AB500A4F06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5287B8F91FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */,
+				5287B90D1FDB3AB500A4F06B /* Lab 7 Brandon TrastoyTests */,
+				5287B9181FDB3AB600A4F06B /* Lab 7 Brandon TrastoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5287B8F81FDB3AB500A4F06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5287B9081FDB3AB500A4F06B /* LaunchScreen.storyboard in Resources */,
+				5287B9051FDB3AB500A4F06B /* Assets.xcassets in Resources */,
+				5287B9031FDB3AB500A4F06B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B90C1FDB3AB500A4F06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B9171FDB3AB600A4F06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5287B8F61FDB3AB500A4F06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5282FDA01FE45ABD009B183F /* tuple.swift in Sources */,
+				5282FD9E1FE450DC009B183F /* SecondViewController.swift in Sources */,
+				5287B9001FDB3AB500A4F06B /* ViewController.swift in Sources */,
+				5287B8FE1FDB3AB500A4F06B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B90A1FDB3AB500A4F06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5287B9131FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5287B9151FDB3AB600A4F06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5287B91E1FDB3AB600A4F06B /* Lab_7_Brandon_TrastoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5287B9101FDB3AB600A4F06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5287B8F91FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */;
+			targetProxy = 5287B90F1FDB3AB600A4F06B /* PBXContainerItemProxy */;
+		};
+		5287B91B1FDB3AB600A4F06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5287B8F91FDB3AB500A4F06B /* Lab 7 Brandon Trastoy */;
+			targetProxy = 5287B91A1FDB3AB600A4F06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5287B9011FDB3AB500A4F06B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5287B9021FDB3AB500A4F06B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5287B9061FDB3AB500A4F06B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5287B9071FDB3AB500A4F06B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5287B9201FDB3AB600A4F06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5287B9211FDB3AB600A4F06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5287B9231FDB3AB600A4F06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon Trastoy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-Trastoy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5287B9241FDB3AB600A4F06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon Trastoy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-Trastoy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5287B9261FDB3AB600A4F06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon TrastoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-TrastoyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 7 Brandon Trastoy.app/Lab 7 Brandon Trastoy";
+			};
+			name = Debug;
+		};
+		5287B9271FDB3AB600A4F06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon TrastoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-TrastoyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 7 Brandon Trastoy.app/Lab 7 Brandon Trastoy";
+			};
+			name = Release;
+		};
+		5287B9291FDB3AB600A4F06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon TrastoyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-TrastoyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 7 Brandon Trastoy";
+			};
+			name = Debug;
+		};
+		5287B92A1FDB3AB600A4F06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab 7 Brandon TrastoyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.Lab-7-Brandon-TrastoyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 7 Brandon Trastoy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5287B8F51FDB3AB500A4F06B /* Build configuration list for PBXProject "Lab 7 Brandon Trastoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5287B9201FDB3AB600A4F06B /* Debug */,
+				5287B9211FDB3AB600A4F06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5287B9221FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon Trastoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5287B9231FDB3AB600A4F06B /* Debug */,
+				5287B9241FDB3AB600A4F06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5287B9251FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon TrastoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5287B9261FDB3AB600A4F06B /* Debug */,
+				5287B9271FDB3AB600A4F06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5287B9281FDB3AB600A4F06B /* Build configuration list for PBXNativeTarget "Lab 7 Brandon TrastoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5287B9291FDB3AB600A4F06B /* Debug */,
+				5287B92A1FDB3AB600A4F06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5287B8F21FDB3AB500A4F06B /* Project object */;
+}
